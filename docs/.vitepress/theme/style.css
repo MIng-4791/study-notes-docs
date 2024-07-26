@@ -1,0 +1,21 @@
+abbr {
+    position: relative;
+}
+abbr[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--vp-c-important-soft);
+    max-width: 600px;
+    min-width: 150px;
+    text-align: left;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    color: var(--vp-code-color);
+    border-radius: 5px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .2s;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "sedii-common-docs",
+  "version": "1.0.0",
+  "description": "公共组件库",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "sedii-common"
+  ],
+  "author": "kaoqm",
+  "license": "MIT",
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/node": "^20.14.9",
+    "@vitepress-demo-preview/component": "2.3.2-0",
+    "@vitepress-demo-preview/plugin": "1.2.3-0",
+    "element-plus": "^2.7.6",
+    "sedii-common": "1.0.18",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.31"
+  }
+}
