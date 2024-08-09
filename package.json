@@ -1,7 +1,7 @@
 {
-  "name": "sedii-common-docs",
+  "name": "study-notes-docs",
   "version": "1.0.0",
-  "description": "公共组件库",
+  "description": "个人学习笔记心里路程",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,10 @@
     "serve": "vitepress serve docs"
   },
   "keywords": [
-    "sedii-common"
+    "study",
+    "notes",
+    "vue",
+    "three.js"
   ],
   "author": "kaoqm",
   "license": "MIT",
@@ -20,7 +23,6 @@
     "@vitepress-demo-preview/component": "2.3.2-0",
     "@vitepress-demo-preview/plugin": "1.2.3-0",
     "element-plus": "^2.7.6",
-    "sedii-common": "1.0.18",
     "vitepress": "^1.2.3",
     "vue": "^3.4.31"
   }

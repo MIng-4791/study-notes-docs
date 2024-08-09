@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Sedii-Common"
-  text: "Vue3 组件库"
-  tagline: 基于 Vue3 + TypeScript 的组件库
+  name: "Study Notes"
+  text: "个人学习笔记"
+  tagline: 学习前端技术栈的心里路程，记录每一刻
   actions:
     - theme: brand
       text: 开始学习

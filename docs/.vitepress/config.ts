@@ -6,8 +6,8 @@ import {
 } from "@vitepress-demo-preview/plugin";
 import { fileURLToPath, URL } from "node:url";
 export default defineConfig({
-  title: "Sedii-Common",
-  description: "公共组件库使用说明文档",
+  title: "个人学习笔记",
+  description: "记录学习之路",
   vite: {
     resolve: {
       alias: {
@@ -23,12 +23,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "展示",
-        items: [
-          { text: "accessItem", link: "/components/accessItem" },
-          { text: "manageSum", link: "/components/manageSum" },
-          { text: "alarmNumber", link: "/components/alarmNumber" },
-          { text: "floatWindow", link: "/components/floatWindow" },
-        ],
+        items: [],
       },
     ],
     //   socialLinks: [],
